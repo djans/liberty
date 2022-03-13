@@ -1,2 +1,0 @@
-# liberty
-Liberty server
