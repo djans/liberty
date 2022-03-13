@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Corporations Cogitosum Inc.</title>
+    <meta
+      name="description"
+      content="Corporations Cogitosum Inc."
+    />
+    <meta name="author" content="Daniel JANS" />
+    <style>
+      body {
+        margin: 15px auto;
+        max-width: 650px;
+        line-height: 1.2;
+        font-family: sans-serif;
+        font-size: 2em;
+        color: #fff;
+        background: #444;
+      }
+      a {
+        color: yellowgreen;
+      }
+    </style>
+  </head>
+  <body onload="main()">
+    <h1>Corporations Cogitosum Inc.</h1>
+    <img src="moon-logo.png" />
+    <p id="output_p"></p>
+	<p>Avec IPFS - Using IPFS - 2</p>
+    <h2><a href="about.html">About</a></h2>
+    <script>
+      function main() {
+        const facts = [
+          'Formations',
+          'Consultations'                    
+        ]
+        document.querySelector('#output_p').innerHTML =
+          facts[Math.floor(Math.random() * facts.length)]
+      }
+    </script>
+  </body>
+</html>
