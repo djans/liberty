@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'HOME: $HOME'
+echo 'HOME: ' $HOME
 # restore build artifacts
 if [ "$(ls /tmp/s2i/artifacts/ 2>/dev/null)" ]; then
     #echo '1'
