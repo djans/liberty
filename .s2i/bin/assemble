@@ -1,5 +1,5 @@
 #!/bin/bash
-#echo '0'
+#echo 'HOME: $HOME'
 # restore build artifacts
 if [ "$(ls /tmp/s2i/artifacts/ 2>/dev/null)" ]; then
     #echo '1'
@@ -9,6 +9,7 @@ fi
 # move the application source
 #echo '3'
 mv /tmp/s2i/src $HOME/src
+ls -l $HOME/src
 #echo '4'
 
 # build application artifacts
