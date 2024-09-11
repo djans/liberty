@@ -1,4 +1,4 @@
-FROM open-liberty:kernel
+FROM open-liberty:latest
 
 ENV SEC_TLS_TRUSTDEFAULTCERTS true
 
