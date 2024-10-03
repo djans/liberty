@@ -35,4 +35,14 @@ Contributors:
 
     <httpSession cookieSameSite="Strict"/>
 
+    <basicRegistry id="basic" realm="customRealm">
+     <user name="djans" password="password" />
+     <user name="cjans" password="password" />
+     <user name="aslavich" password="password" />
+     <group name="students">
+         <member name="djans" />
+         <member name="cjans" />
+     </group>
+    </basicRegistry>
+
 </server>
