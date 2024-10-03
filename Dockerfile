@@ -1,4 +1,4 @@
-FROM open-liberty:kernel-slim-java21-openj9-ubi-minimal
+FROM open-liberty:24.0.0.9-kernel-slim-java21-openj9-ubi-minimal
 
 ENV SEC_TLS_TRUSTDEFAULTCERTS true
 
